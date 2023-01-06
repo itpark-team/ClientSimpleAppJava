@@ -21,7 +21,7 @@ public class Main {
         DataInputStream dataInputStream;
         DataOutputStream dataOutputStream;
 
-        socket = new Socket(InetAddress.getByName("127.0.0.1"), 23465);
+        socket = new Socket(InetAddress.getByName("194.67.105.79"), 23465);
         Log("connect to server");
 
         dataInputStream = new DataInputStream(socket.getInputStream());
